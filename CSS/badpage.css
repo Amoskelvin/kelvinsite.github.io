@@ -1,0 +1,46 @@
+body{
+    background-color: white;
+
+}
+.div1{
+    padding:130px 200px;
+    font-size: 50px;
+    font-family: Product Sans;
+    float: left;
+    width: 50%;
+    position: fixed;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+.div2{
+    float:right;
+    margin: auto;
+    padding: 130px 500px ;
+}
+a {
+    text-decoration: none;
+}
+.span1 {
+    color: #2E7CF3;
+}
+.span2 {
+    color: #EC4137;
+}
+.span3 {
+    color: #FBBD00;
+}
+.span4 {
+    color: #35A955;
+}
+.span5 {
+    color: rgba(0, 0, 0, 0.356);
+}
+.p1 {
+    font-size: 35px;
+}
+img {
+    height: 150%;
+    width: 150%;
+}

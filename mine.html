@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+   <link rel="stylesheet" href="./CSS/mine.css">
+   <style type="text/css">
+     </style>
+</head>
+<body>
+   <p id="demo">0.000</p>
+   <button onclick="stopInterval()"> Stop mining</button>
+   
+   <script>
+   var x = 0.001;
+   
+   var myInterval = setInterval(function() {
+   // adds 0 to x
+   x += 0.001;
+   document.getElementById("demo").innerHTML = x;
+   }, 1000);
+   
+   function stopInterval() {
+   clearInterval(myInterval);
+   }
+   </script><br>
+   
+   <a href=""class="hero-btn">MINE</a>
+  
+</body>
+</html>
